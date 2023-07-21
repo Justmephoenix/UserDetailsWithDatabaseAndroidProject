@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter The Details Below!"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/texttitle"
+
+         />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:textSize="18dp"
+        android:layout_below="@+id/texttitle"
+        android:inputType="textPersonName"
+
+
+        />
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Contact No."
+        android:textSize="18dp"
+        android:layout_below="@+id/name"
+        android:inputType="textPersonName"
+
+
+        />
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Date Of Birth"
+        android:textSize="18dp"
+        android:layout_below="@+id/contact"
+        android:inputType="textPersonName"
+
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btninsert"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="38dp"
+        android:text="Insert"
+        android:layout_marginLeft="15dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndelete"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="38dp"
+        android:text="Delete"
+        android:layout_marginLeft="105dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnupdate"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="38dp"
+        android:text="Update"
+        android:layout_marginLeft="195dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnview"
+        android:layout_below="@+id/dob"
+        android:layout_marginTop="38dp"
+        android:text="View"
+        android:layout_marginLeft="285dp"
+        />
+
+
+
+</RelativeLayout>
